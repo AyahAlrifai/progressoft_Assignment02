@@ -27,8 +27,8 @@ CREATE TABLE `dic_dictionary` (
   `name` varchar(45) NOT NULL,
   `code` varchar(45) NOT NULL,
   `isActive` bit(1) NOT NULL DEFAULT b'1',
-  UNIQUE KEY `CODE` (`code`,`isActive`),
-  PRIMARY KEY (`dictionary_Id`)
+  PRIMARY KEY (`dictionary_Id`),
+  UNIQUE KEY `CODE` (`code`,`isActive`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -38,7 +38,7 @@ CREATE TABLE `dic_dictionary` (
 
 LOCK TABLES `dic_dictionary` WRITE;
 /*!40000 ALTER TABLE `dic_dictionary` DISABLE KEYS */;
-INSERT INTO `dic_dictionary` VALUES (1,'countries','DIC_COUNTRIES',_binary '');
+INSERT INTO `dic_dictionary` VALUES (1,'ISO','DIC_ISO',_binary '');
 /*!40000 ALTER TABLE `dic_dictionary` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-10 17:11:04
+-- Dump completed on 2022-06-13  1:19:13

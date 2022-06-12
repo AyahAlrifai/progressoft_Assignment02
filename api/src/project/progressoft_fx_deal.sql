@@ -24,14 +24,14 @@ DROP TABLE IF EXISTS `fx_deal`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `fx_deal` (
   `deal_id` int NOT NULL AUTO_INCREMENT,
-  `fromISO` int not NULL,
-  `toISO` int not NULL,
-  `amount` float not null,
-  `timestamp` varchar(16) NOT NULL,
+  `fromISO` varchar(45) NOT NULL,
+  `toISO` varchar(45) NOT NULL,
+  `amount` float NOT NULL,
+  `timestamp` varchar(32) NOT NULL,
   PRIMARY KEY (`deal_id`),
-  KEY `dealid_idx` (`deal_id`),
-  UNIQUE KEY `CODE` (`fromISO`,`toISO`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  UNIQUE KEY `CODE` (`fromISO`,`toISO`),
+  KEY `dealid_idx` (`deal_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,6 +40,7 @@ CREATE TABLE `fx_deal` (
 
 LOCK TABLES `fx_deal` WRITE;
 /*!40000 ALTER TABLE `fx_deal` DISABLE KEYS */;
+INSERT INTO `fx_deal` VALUES (22,'JO','UK',100,'2022-06-13T00:01:02.580917600'),(23,'JO','AE',100,'2022-06-13T00:01:33.871821100'),(24,'JO','AL',0.777,'2022-06-13T00:26:44.864506500');
 /*!40000 ALTER TABLE `fx_deal` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-10 17:27:39
+-- Dump completed on 2022-06-13  1:19:13
