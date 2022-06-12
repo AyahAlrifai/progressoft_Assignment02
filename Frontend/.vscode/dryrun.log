@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/d/ayah/progressoft/Frontend'
+echo "start initialization Application"
+echo "Maven clean && install"
+mvn clean install
+echo "run Application"
+java -jar ./target/progressoft-assignment-1-jar-with-dependencies.jar
+make: Leaving directory '/d/ayah/progressoft/Frontend'
+ 

@@ -1,0 +1,6 @@
+com\progressoft\fun\ProgressLogger.class
+com\progressoft\model\DIC_DictionaryEntry.class
+com\progressoft\model\DIC_Dictionary.class
+com\progressoft\model\FX_Deal.class
+com\progressoft\fun\DealHTTPControler.class
+com\progressoft\App.class

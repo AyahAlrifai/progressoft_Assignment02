@@ -1,0 +1,6 @@
+Jun 11, 2022 12:46:36 AM com.progressoft.fun.ProgressLogger <init>
+INFO: start log App
+Jun 11, 2022 12:46:36 AM com.progressoft.fun.ProgressLogger <init>
+INFO: start log com.progressoft.fun
+Jun 11, 2022 12:46:36 AM com.progressoft.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft

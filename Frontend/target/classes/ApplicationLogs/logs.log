@@ -1,0 +1,8 @@
+Jun 13, 2022 12:57:19 AM com.progressoft.fun.ProgressLogger <init>
+INFO: start log App
+Jun 13, 2022 12:57:19 AM com.progressoft.fun.ProgressLogger <init>
+INFO: start log com.progressoft.fun
+Jun 13, 2022 12:57:21 AM com.progressoft.fun.DealHTTPControler createConnection
+INFO: http://localhost:8080/deal?local=en
+Jun 13, 2022 12:57:21 AM com.progressoft.fun.DealHTTPControler getAllDeals
+INFO: response code 200

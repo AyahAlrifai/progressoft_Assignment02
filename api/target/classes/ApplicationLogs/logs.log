@@ -1,0 +1,120 @@
+Jun 13, 2022 12:29:47 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:29:53 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:30:01 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:30:06 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:31:39 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:31:43 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:31:45 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:31:49 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:32:51 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:32:55 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:32:57 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:33:01 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:33:22 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:33:25 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:33:27 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:33:28 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:36:33 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:36:42 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:36:42 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:36:42 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:43:59 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:44:03 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:44:03 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:44:03 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:48:28 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:48:30 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:48:30 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:48:30 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:49:03 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:49:03 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:49:03 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:49:03 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:50:49 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:50:49 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:50:49 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:50:49 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:51:01 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:51:01 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:51:01 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:51:01 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:52:25 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:52:25 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:52:25 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:52:25 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:53:09 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:53:09 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:53:09 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:53:09 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:55:08 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:55:08 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:55:08 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:55:08 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:55:22 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:55:22 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:55:22 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:55:22 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';
+Jun 13, 2022 12:57:21 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log get all deals
+Jun 13, 2022 12:57:21 AM com.ayah.progress.fun.ProgressLogger <init>
+INFO: start log package com.ayah.progress.controller.getDictionaryEntries
+Jun 13, 2022 12:57:21 AM com.ayah.progress.fun.DataBaseConnection startConnection
+INFO: Start connect jdbc:mysql://localhost:3306/progressoft
+Jun 13, 2022 12:57:21 AM com.ayah.progress.controller.APIRestController getDealsEntries
+INFO: com.mysql.cj.jdbc.ClientPreparedStatement: select distinct fx_deal.*,fromISO.NAME,toISO.NAME from fx_deal inner join dic_dictionaryentry fromISO on fx_deal.fromiso = fromISO.code inner join dic_dictionaryentry toISO on fx_deal.toiso = toISO.code inner join dic_dictionary on dic_dictionary.dictionary_id = fromISO.dictionary_id and dic_dictionary.dictionary_id = toISO.dictionary_id  where dic_dictionary.code = 'DIC_ISO' AND fromISO.LOCAL = 'en' AND toISO.local = 'en';

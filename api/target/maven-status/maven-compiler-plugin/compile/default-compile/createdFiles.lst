@@ -1,0 +1,12 @@
+com\ayah\progress\model\FX_Deal.class
+com\ayah\progress\Exceptions\AmountException.class
+com\ayah\progress\fun\DataBaseConnection.class
+com\ayah\progress\fun\ProgressLogger.class
+com\ayah\progress\model\DIC_Dictionary.class
+com\ayah\progress\Exceptions\ToISOException.class
+com\ayah\progress\Exceptions\ProgressExceptions.class
+com\ayah\progress\controller\APIRestController.class
+com\ayah\progress\model\DIC_DictionaryEntry.class
+com\ayah\progress\Exceptions\DictionaryCodeException.class
+com\ayah\progress\server\main\ProgressoftApiApplication.class
+com\ayah\progress\Exceptions\FromISOException.class

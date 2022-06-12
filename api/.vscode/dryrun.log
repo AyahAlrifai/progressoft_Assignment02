@@ -1,0 +1,9 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/d/ayah/progressoft/api'
+echo "start initialization Application"
+echo "Maven clean && install"
+mvn clean install
+echo "run Application"
+java -jar ./target/progessoft-api-0.0.1-SNAPSHOT.jar 
+make: Leaving directory '/d/ayah/progressoft/api'
+ 

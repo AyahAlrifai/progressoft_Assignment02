@@ -1,0 +1,12 @@
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\Exceptions\ToISOException.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\Exceptions\AmountException.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\Exceptions\DictionaryCodeException.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\fun\DataBaseConnection.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\model\DIC_DictionaryEntry.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\model\FX_Deal.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\Exceptions\FromISOException.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\fun\ProgressLogger.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\model\DIC_Dictionary.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\Exceptions\ProgressExceptions.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\server\main\ProgressoftApiApplication.java
+D:\ayah\progressoft\api\src\main\java\com\ayah\progress\controller\APIRestController.java
