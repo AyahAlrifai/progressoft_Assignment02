@@ -14,7 +14,7 @@
 
 # run application 
     Change this part of Makefile
-        mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < D:/ayah/progressoft/api/src/project/progressoft_dic_dictionary.sql
-	mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < D:/ayah/progressoft/api/src/project/progressoft_dic_dictionaryentry.sql
-	mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < D:/ayah/progressoft/api/src/project/progressoft_fx_deal.sql
+        mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < ./src/project/progressoft_dic_dictionary.sql
+	mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < ./src/project/progressoft_dic_dictionaryentry.sql
+	mysql -u  [[db-acount]] -p[[db-password]] -h [[db-host]] [[db-database]] < ./src/project/progressoft_fx_deal.sql
     in cmd run this command --> make 
